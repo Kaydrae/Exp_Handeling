@@ -91,15 +91,11 @@ namespace Exp_Handeling
         }
 
         private System.Windows.Forms.TextBox Numbers_Test;
-
         private System.Windows.Forms.TextBox String_Text;
-
         private System.Windows.Forms.Button String_Button;
         private System.Windows.Forms.TextBox Tom_Text;
         private System.Windows.Forms.Button Tom_Button;
-
         private System.Windows.Forms.TextBox textBox1;
-
         private System.Windows.Forms.Button Num_Button;
 
         private void Num_Button_Click(object sender, EventArgs e)
@@ -110,7 +106,7 @@ namespace Exp_Handeling
             try
             {
                 r = int.Parse(str); 
-                MessageBox.Show("This is an a valid Number");
+                MessageBox.Show("This is a valid Number");
             }
             catch
             {
